@@ -71,7 +71,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h2 className="font-serif text-3xl">Aromabalm — 3 oz</h2>
+              <h2 className="font-serif text-3xl">Aromabalm — 2 oz</h2>
               <p className="mt-3 text-zinc-300">
                 Menthol rub for sore muscles, congestion, and anxiety relief. A gentle, witch-crafted
                 blend you can feel good about using daily.
@@ -131,10 +131,10 @@ export default function Home() {
         {/* Gallery mood strip */}
         <section className="border-t border-white/5 py-10">
           <div className="mx-auto max-w-6xl px-4 grid grid-cols-2 md:grid-cols-4 gap-4">
-            <Image src="/images/field-02.jpg" alt="Autumn field" width={800} height={1200} className="rounded-xl object-cover sepia-warm" />
-            <Image src="/images/field-03.jpg" alt="Dancing in the field" width={800} height={1200} className="rounded-xl object-cover sepia-warm" />
             <Image src="/images/tree-jar.jpg"  alt="Jar by the tree" width={800} height={1200} className="rounded-xl object-cover jar-green" />
             <Image src="/images/botanicals.jpg" alt="Wild botanicals" width={800} height={1200} className="rounded-xl object-cover" />
+            <Image src="/images/field-02.jpg" alt="Autumn field" width={800} height={1200} className="rounded-xl object-cover sepia-warm" />
+            <Image src="/images/field-03.jpg" alt="Dancing in the field" width={800} height={1200} className="rounded-xl object-cover sepia-warm" />
           </div>
         </section>
 

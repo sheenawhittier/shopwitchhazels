@@ -1,21 +1,23 @@
-export default function Cancel() {
+import Link from "next/link";
+
+export default function CancelPage() {
     return (
-        <main className="min-h-screen bg-[#0c0f0d] text-zinc-100 grid place-items-center p-10">
-            <div className="max-w-xl text-center">
-                <h1 className="font-serif text-3xl">Order canceled</h1>
-                <p className="mt-3 text-zinc-300">
-                    No charge was made. If you ran into trouble, try again or reach out and we’ll help.
+        <main className="min-h-[60vh] grid place-items-center p-6">
+            <div className="text-center space-y-4">
+                <h1 className="text-3xl font-semibold">Payment canceled</h1>
+                <p className="text-muted-foreground">
+                    No charge was made. You can safely try again.
                 </p>
-                <div className="mt-8">
-                    <a
-                        href="/"
-                        className="rounded-2xl bg-emerald-600/80 px-5 py-2 font-medium ring-1 ring-emerald-400/40 hover:bg-emerald-500"
-                    >
-                        Return to shop
-                    </a>
-                </div>
+
+                <Link
+                    href="/"
+                    className="inline-flex items-center gap-2 rounded-xl px-4 py-2 border hover:shadow-sm transition breathing"
+                >
+                    ← Back to home
+                </Link>
             </div>
         </main>
     );
 }
+
 

@@ -23,7 +23,7 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="h-8 w-8 rounded-full grid place-items-center ring-1 ring-emerald-400/40 bg-emerald-600/20">🌙</div>
-              <span className="font-semibold tracking-wide">Witch Hazel’s Aroma Balm</span>
+              <span className="font-semibold tracking-wide">Witch Hazel’s Aromabalm</span>
             </div>
             <nav className="hidden md:flex gap-6 text-sm">
               <a href="#shop" className="hover:text-emerald-300">Shop</a>
@@ -38,7 +38,7 @@ export default function Home() {
         <section className="relative grain">
           <Image
               src="/images/candles-jar.jpg"
-              alt="Aroma Balm among candles in the forest"
+              alt="Aromabalm among candles in the forest"
               width={2400}
               height={1400}
               priority
@@ -71,7 +71,7 @@ export default function Home() {
             </div>
 
             <div>
-              <h2 className="font-serif text-3xl">Aroma Balm — 1 oz</h2>
+              <h2 className="font-serif text-3xl">Aromabalm — 3 oz</h2>
               <p className="mt-3 text-zinc-300">
                 Menthol rub for sore muscles, congestion, and anxiety relief. A gentle, witch-crafted
                 blend you can feel good about using daily.
@@ -152,7 +152,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="border-t border-white/5">
           <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-zinc-500 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p>© {new Date().getFullYear()} Witch Hazel’s Aroma Balm • shopwitchhazels.com</p>
+            <p>© {new Date().getFullYear()} Witch Hazel’s Aromabalm • shopwitchhazels.com</p>
             <p>
               <a className="underline" href="mailto:witchhazelshelp@gmail.com">witchhazelshelp@gmail.com</a> • (435) 590-4447
             </p>
